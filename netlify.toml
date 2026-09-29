@@ -1,0 +1,8 @@
+[build]
+  publish = "Website (2)/Website/Website"
+
+# Serve the profile page at the site root, since there is no index.html
+[[redirects]]
+  from = "/"
+  to = "/Mini-Personal-Profile-Page.html"
+  status = 200
